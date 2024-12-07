@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/bg\ img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(23, 215, 173, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 12px 20px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 12px 30px;
+    background: #6b90ff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ff4757;
+}
+
+.result {
+    margin-top: 30px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result h3 {
+
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.result p {
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    margin: 10px 0;
+}
+
+.result strong{
+    text-decoration: underline;
+    font:900;
+    color: black;
+}
+
+.copyright{
+    
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 50px;
+    padding-top: 30px;
+}
